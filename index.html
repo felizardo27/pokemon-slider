@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokemon Slider</title>
+    <link rel="shortcut icon" href="./src/imagens/pokebola.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/pokebola.png" alt="Pokebola" class="cabecalho__imagem">
+        <h1 class="cabecalho__titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="slider">
+        <button class="slider__botao voltar">
+            <img src="./src/imagens/seta.png" alt="Seta Voltar">
+        </button>
+
+        <ul class="slider__lista">
+            <li class="card card-eletrico ativo">
+                <div class="card__cabecalho">
+                    <h2 class="card__cabecalho--titulo">Pikachu</h2>
+                    <p class="card__cabecalho--texto">HP 300</p>
+                </div>
+
+                <div class="card__container">
+                    <img src="./src/imagens/pikachu.png" alt="Pokemon Pikachu" class="card__container--imagem">
+                </div>
+
+                <div class="card__descricao">
+                    <h3 class="card__descricao--titulo">Descrição</h3>
+                    <p class="card__descricao--texto">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perspiciatis quasi magnam quis, magni, facilis odit tenetur architecto culpa natus quod illo, tempora molestias maiores pariatur vitae aut officiis saepe.
+                    </p>
+                </div>
+            </li>
+            
+            <li class="card card-fogo ">
+                <div class="card__cabecalho">
+                    <h2 class="card__cabecalho--titulo">Charizard</h2>
+                    <p class="card__cabecalho--texto">HP 800</p>
+                </div>
+
+                <div class="card__container"> 
+                    <img src="./src/imagens/charizard.png" alt="Pokemon Charizard" class="card__container--imagem">
+                </div>
+
+                <div class="card__descricao">
+                    <h3 class="card__descricao--titulo">Descrição</h3>
+                    <p class="card__descricao--texto">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur iure ab unde ipsum debitis similique possimus illo incidunt, perspiciatis pariatur nobis dolore facere numquam quos asperiores amet ut libero. 
+                    </p>
+                </div>
+            </li>
+
+            <li class="card card-psiquico ">
+                <div class="card__cabecalho">
+                    <h2 class="card__cabecalho--titulo">Mewtwo</h2>
+                    <p class="card__cabecalho--texto">HP 1200</p>
+                </div>
+
+                <div class="card__container">
+                    <img src="./src/imagens/mewtwo.png" alt="Pokemon Mewtwo" class="card__container--imagem">
+                </div>
+
+                <div class="card__descricao">
+                    <h3 class="card__descricao--titulo">Descrição</h3>
+                    <p class="card__descricao--texto">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur iure ab unde ipsum debitis similique possimus illo incidunt, perspiciatis pariatur nobis dolore facere numquam quos asperiores amet ut libero.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        
+        <button class="slider__botao proximo">
+            <img src="./src/imagens/seta.png" alt="Seta Proximo">
+        </button>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
